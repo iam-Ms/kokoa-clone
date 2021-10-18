@@ -1,0 +1,70 @@
+.settings-header {
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-header__column {
+  width: 33.3%;
+}
+
+.settings-header__column:nth-child(2) h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.settings-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.settings-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.settings-screen__column {
+  padding: 15px 0;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings-screen__column div:first-child {
+  margin-right: 40px;
+}
+
+.settings-screen__column:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-screen__column:last-child div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.settings-screen__column--text {
+  font-size: 19px;
+}
+
+.settings-screen__column:last-child div:last-child span {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+}
+
+@keyframes spincog {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.fa-cog:hover {
+  animation: spincog 2s ease-in-out infinite;
+}

@@ -23,7 +23,7 @@
   border: none;
   margin-bottom: 15px;
   font-size: 18px;
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.4s ease-in-out;
 }
 
@@ -37,7 +37,7 @@
 
 .Login-form input:focus {
   outline: none;
-  border-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.3);
 }
 
 .Login-form input:nth-child(3),
